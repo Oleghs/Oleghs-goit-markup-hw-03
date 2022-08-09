@@ -1,7 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Second homework from Go-IT school
-
-осталось:
-
-- loom 3:24
+Third homework from Go-IT school
