@@ -62,6 +62,11 @@ body {
     color: var(--main-color);
     
 }
+
+.container {
+width: 1200px;
+}
+
 /* заголовки rgba(33, 33, 33, 1)
 акцент синий #2196F3;
 описание  #757575
@@ -77,10 +82,10 @@ body {
     color: #000000;
 }
 
-.site-nav {
+/*.site-nav {
     text-decoration: none;
     
-}
+}*/
 
 .site-nav .link {
     color: var(--link-color);
@@ -95,15 +100,15 @@ body {
     color: var(--accent-color);
 }
 
-.list {
-    /*сброс точк списка*/
+/*.list {
+    /*сброс точк списка
     list-style: none;
-}
+}*/
 
 .link {
     /*сброс подчёркивания ссылок и цвет по умолчанию*/
     font-style: normal;
-    text-decoration: none;
+    /*text-decoration: none;*/
     font-weight: 500;
     line-height: 1.19;
     color: inherit;
@@ -120,10 +125,19 @@ body {
 }
 
 .hero {
+    display: flex;
     background-color : var(--heder-footer-color);
+    width: 1600px;
+    height: 600px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    
 }
 
 .hero-title {
+    
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -131,11 +145,16 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-color);
+    width: 696px;
+    height: 120px;
+    
     /* должен быть FFF */
 }
 
 .main-button {
     /*кнопка раздела герой*/
+    /*display: block;*/
+    
     text-decoration: none;
     border: 0;
     border-radius: 4px;
@@ -254,7 +273,7 @@ body {
 
 .footer {
     background-color: var(--heder-footer-color);
-    font-style: normal;
+    /*font-style: normal;*/
    
     
 }
