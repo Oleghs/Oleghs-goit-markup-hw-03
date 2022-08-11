@@ -100,7 +100,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 
@@ -419,18 +419,30 @@ body {
 
 .footer {
   background-color: var(--hero-footer-color);
- 
+  
+  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+
+ 
 }
 
 
-.logo.footer {
+.logo-footer {
   color: #fff;
   margin-bottom: 20px;
   
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(36 / 26);
 }
 
+.nav-links-footer-list:not(:last-child) {
+  margin-bottom: 9px;
+ 
+}
 
 .foot-adress {
   line-height: calc(24 / 14);
