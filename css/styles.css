@@ -100,24 +100,57 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid red;
 }
 
 
 /* ---------------Header----------------- */
 
 .header {
-    
+   padding-top: 24px;
+   padding-bottom: 25px;
 }
 
+
+
 .logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+  
+
+  
 }
 
+.header-flex {
+ 
+  display: flex;
+  align-items: center;
+
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  gap: 50px;
+  
+  
+}
+
+.nav-links {
+  display: block;
+  display: flex;
+  margin-left: auto;
+  gap: 47px;
+  
+}
+
+
 .site-nav-link {
+
   color: var(--link-color);
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -130,6 +163,7 @@ body {
 }
 
 .link {
+ 
   font-weight: 500;
   line-height: calc(16 / 14);
   color: inherit;
@@ -232,14 +266,17 @@ body {
 
 .features {
     
-    height: 600px;
-
     padding-top: 94px;
     padding-bottom: 94px;
 
     background-color: var(--light-bgc);
 }
 
+.feature-flex {
+  display: flex;
+  gap: 30px;
+
+}
 
 
 .features-header {
@@ -250,12 +287,9 @@ body {
   color: var(--title-color);
 
   margin-bottom: 10px;
-  /*outline: 1px solid red;*/      /*-------DelME-----------*/
+ 
 }
 
-.features-list {
-  outline: 1px solid green;      /*-------DelME-----------*/
-}
 
 .features-description {
   line-height: calc(24 / 14);
@@ -267,13 +301,17 @@ body {
 
 .work {
 
-padding-bottom: 94px; 
+  padding-bottom: 94px; 
+  margin-bottom: 0px;
 
-margin-bottom: 0px;
-
-background-color: var(--light-bgc);
+  background-color: var(--light-bgc);
 
    
+}
+
+.work-flex {
+  display: flex;
+  gap: 30px;
 }
 
 .work-title,
@@ -286,6 +324,8 @@ background-color: var(--light-bgc);
 
   margin-bottom: 50px;
 }
+
+/* --------------Team--наша команда------------------ */
 
 .team {
   
@@ -306,7 +346,7 @@ background-color: var(--light-bgc);
 }
 
 .team-list {
-  outline: 1px solid red;
+
   width: 270px;
   
   
