@@ -75,7 +75,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  width: 1600px;
+  
   margin-left: auto;
   margin-right: auto;
   
@@ -100,7 +100,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 
 
@@ -182,16 +182,19 @@ body {
 /* ---------------Hero----------------- */
 
 .hero {
-  background-color: var(--hero-footer-color);
   
   padding-top: 200px;
   padding-bottom: 200px;
-
- 
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-color: var(--hero-footer-color);
+  
 }
 
 .hero-title {
-    
+  display: block;  
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -200,9 +203,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title-hero-color);
+  
   margin-bottom: 30px;
   width: 696px;
-  height: 120px;
+  
 }
 
 /* ---------------Hero Button----------------- */
@@ -222,7 +226,8 @@ body {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
 
-  width: 216px;
+  padding: 10px 32px 10px 32px;
+ 
   margin-left: auto;
   margin-right: auto;
 }
@@ -231,6 +236,7 @@ body {
 .main-button:focus {
   color: var(--button-wh-color);
   background-color: var(--button-push-color);
+  
 
 }
 
@@ -361,6 +367,8 @@ body {
 
 .portpholio-projects {
   background-color: var(--light-bgc);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ---------------Other Buttons (portpholio)----------------- */
@@ -379,17 +387,24 @@ body {
   height: 38px;
   padding-left: 22px;
   padding-right: 22px;
+
 }
 
 .buttons:hover,
 .buttons:focus {
   color: var(--button-wh-color);
   background-color: var(--accent-color);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .buttons.active {
   color: var(--button-wh-color);
   background-color: var(--accent-color);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .portpholio-butt-flex {         /*buttons flex*/
@@ -397,8 +412,7 @@ body {
   gap: 8px;
   justify-content: center;
 
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
 }
 
@@ -408,8 +422,7 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 
-  padding-top: 34px;
-  padding-bottom: 94px;
+ 
 }
 .portpholio-card-name {
   border: 1px solid #EEEEEE;
